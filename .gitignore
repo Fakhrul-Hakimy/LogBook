@@ -1,15 +1,15 @@
 # Ignore virtual environments
 api/.venv/
 app/.venv/
-
+.venv/
 # Ignore IDE configs
 api/.idea/
 app/.idea/
-
+.idea/
 # Ignore Python bytecode
 api/__pycache__/
 app/__pycache__/
-
+__pycache__/
 # Ignore uploads or build output
 api/uploads/
 app/build/

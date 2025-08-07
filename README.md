@@ -1,6 +1,6 @@
 # 📓 LogBook
 
-**LogBook** is an Android application built with [Flet](https://flet.dev/) for logging daily activities. It features a Python-based frontend and a FastAPI backend. Data is stored in a PostgreSQL database. The backend is exposed securely over the internet using Cloudflare Tunnel.
+LogBook is a learning project — an Android application built with Flet for logging daily activities. It features a Python-based frontend with a FastAPI backend, connected to a PostgreSQL database. The backend is securely exposed to the internet via Cloudflare Tunnel to simulate production-level deployment.
 
 ---
 

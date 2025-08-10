@@ -1,4 +1,5 @@
 from fastapi import FastAPI , HTTPException, Depends,UploadFile, File, Form
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List,Annotated
 import bcrypt
@@ -10,6 +11,15 @@ from sqlalchemy.orm import Session
 import datetime
 
 app = FastAPI()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or ["https://your-flutter-web.com"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 models.Base.metadata.create_all(bind=engine)
 
 class User(BaseModel):

@@ -1,3 +1,14 @@
+# 🚨 Project Discontinued 🚨
+
+This project was a **learning experiment** to explore Flet + FastAPI + PostgreSQL.  
+It is now **archived** due to limitations in the Flet framework, such as limited widget customization and performance constraints on mobile.  
+
+Development continues in a **new Flutter-based version** for better scalability, performance, and cross-platform support.  
+
+➡️ **See the new repository here:** [LogBook (Flutter Version)](https://github.com/Fakhrul-Hakimy/LogBook-Flutter)  
+
+---
+
 # 📓 LogBook
 
 LogBook is a learning project — an Android application built with Flet for logging daily activities. It features a Python-based frontend with a FastAPI backend, connected to a PostgreSQL database. The backend is securely exposed to the internet via Cloudflare Tunnel to simulate production-level deployment.
